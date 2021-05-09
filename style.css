@@ -1,0 +1,256 @@
+
+/*============== NAV =============*/
+
+.navbar-light .navbar-toggler{
+	border-color: none !important;
+	border: 0;
+}
+.navbar-light .navbar-toggler-icon{
+	background: none;
+}
+.navbar-light{
+	color: #777 !important;
+}
+a.nav-item.nav-link{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+
+}
+.garis{
+	width: 26px;
+	height: 3px;
+	background: #000;
+	margin: 5px;
+}
+button:focus{
+	outline: none !important;
+}
+.nav-item.nav-link{
+	margin-right: 15px;
+}
+/*============== NAV =============*/
+
+/*============== HEADER =============*/
+
+header{
+	background: url(img/absenku.jpg);
+	width: 100%;
+	/*height: 100vh;*/
+	margin-top: -100px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: -9;
+}
+
+
+.header-title{
+	font-size: 31px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	/*margin-left: -100px;*/
+}
+.header-paragraf{
+	font-size: 22px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+header .row{
+	padding-top: 150px;
+	}
+/*============== HEADER =============*/
+
+/*============== button nav =============*/
+.btn-daftar{
+	padding-right: 100px;
+	border: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+.btn-coba:hover{
+	background: #ff9400 !important;
+	color: #fff;
+}
+.btn-coba.btn{
+	transition: none;
+}
+.btn-coba{
+	color: #fff;
+	background: linear-gradient(to left, #ff9400, #ffcc00);
+	border: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.text-lightblue{
+	color: #9ee8ff;
+}
+.bg-blue-darken{
+	background-color: #163c8a;
+}
+.btn-daftar:hover{
+	color: #fff;
+	background: #0763ae;
+}
+.btn-daftar{
+	color: #fff;
+	background-color: #009eef;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.btn-birusedang{
+	color: #fff;
+	background-color: #0763ae;
+}
+.botton-right{
+	position: relative;
+}
+.btn-masuk:hover{
+	color: #fff;
+	background-color: #009eef;
+
+}
+.btn-masuk{
+	position: absolute;
+	left: 91px;
+	background: #0763ae; 
+	padding: .230rem .67rem;
+	margin-top: .17em;
+	border-top-right-radius: 17px;
+	border-bottom-right-radius: 17px;
+	color: #fff;
+	text-decoration: none !important;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.white-space{
+	white-space: nowrap;
+}
+/*============== button nav =============*/
+
+/*============== SECTION ABOUT =============*/
+.about-title{
+	font-size: 31px;
+	color: #163C8A;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+section#about h4{
+	color: #092960;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+section#about p{
+	font-size: 14px;
+	color: #363636;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*============== SECTION ABOUT =============*/
+
+/*============== SECTION WHAT ABSENKU =============*/
+
+section#what-absenku h3{
+	font-size: 31px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+
+}
+section#what-absenku p{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+.box{
+	position: relative;
+	z-index: 1;
+}
+
+
+/*============== SECTION WHAT ABSENKU =============*/
+
+/*============== SECTION SERVICES =============*/
+section#services h3{
+	font-size: 31px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #163c8a;
+}
+section#services p{
+	color: #363c6e;
+}
+/*============== SECTION SERVICES =============*/
+
+
+/*====================== FOOTER =========================*/
+footer{
+	background: #163c8a;
+}
+.footer-nav{
+	padding-top: 15px;
+}
+footer h3{
+	padding-top: 30px;
+	font-size: 15px;
+}
+.footer-nav a{
+	color: #fff !important;
+	text-decoration: none;
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+@media(min-width: 1000px){
+	/*header .row{
+	padding-top: 150px;
+	}*/
+	.header-bottom{
+	margin-top: -130px;
+	}
+}
+
+@media(min-width: 998px){
+	.header-caption{
+		padding-top: 70px;
+	}
+}
+@media (min-width: 768px){
+	section#about .row-custom{
+	padding-right: 30px;
+	}
+	header .row{
+	padding-top: 120px;
+	}
+	.side-right{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	transform: translateX(90%);
+	left: 0;
+	z-index: 9;
+	background-color: #021e5b;
+	height: 250px;
+	width: 70%;
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+	}
+	
+}
+
+@media(max-width: 768px){
+	section#about .row{
+		flex-direction: column-reverse;
+	} 
+	.about-title{
+		font-size: 20px;
+	}
+	.hero-header{
+		display: none;
+	}
+}
